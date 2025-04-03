@@ -1,0 +1,36 @@
+<resources>
+    <string-array name="units">
+        <item>Meters</item>
+        <item>Kilometers</item>
+        <item>Centimeters</item>
+        <item>Miles</item>
+        <item>Feet</item>
+        <item>Inches</item>
+    </string-array>
+
+    <string-array name="units_ru">
+        <item>Метры</item>
+        <item>Километры</item>
+        <item>Сантиметры</item>
+        <item>Мили</item>
+        <item>Футы</item>
+        <item>Дюймы</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="language_name">
+        <item>Language</item>
+        <item>Язык</item>
+    </string-array>
+
+    <string-array name="convert">
+        <item>Convert</item>
+        <item>Конвертировать</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/language_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <Spinner
+            android:id="@+id/language_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center">
+        <RadioGroup
+            android:id="@+id/unit_from_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/radio_meters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton android:id="@+id/radio_kilometers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton android:id="@+id/radio_centimeters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/unit_to_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/radio_miles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton android:id="@+id/radio_feet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton android:id="@+id/radio_inches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/input_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/result_int_1"
+            android:layout_width="wrap_content"
+            android:paddingRight="20px"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/result_text_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/result_int_4"
+            android:layout_width="wrap_content"
+            android:paddingRight="20px"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/result_text_4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/result_int_2"
+            android:layout_width="wrap_content"
+            android:paddingRight="20px"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/result_text_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/result_int_5"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:paddingRight="20px"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/result_text_5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/result_int_3"
+            android:layout_width="wrap_content"
+            android:paddingRight="20px"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/result_text_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/result_int_6"
+            android:layout_width="wrap_content"
+            android:paddingRight="20px"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/result_text_6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</LinearLayout>

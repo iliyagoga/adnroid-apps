@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zametki">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Zametki">
+
+        <!-- Активность для списка заметок -->
+        <activity android:name=".NotesListActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Активность для списка тегов -->
+        <activity android:name=".TagsListActivity"></activity>
+
+        <!-- Активность для создания/редактирования заметки -->
+        <activity android:name=".NoteActivity"></activity>
+
+        <!-- Активность для создания/редактирования тега -->
+        <activity android:name=".TagActivity"></activity>
+
+    </application>
+
+</manifest>
